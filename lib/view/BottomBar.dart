@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:swaplt/view/AddingScreen.dart';
+import 'package:swaplt/view/CategoriesScreen.dart';
 import 'package:swaplt/view/HomeScreen.dart';
 import 'package:swaplt/view/ProfileScreen.dart';
 
@@ -15,7 +16,7 @@ class _BottomBarScreenState extends State<BottomBarScreen> {
 
   final List<Widget> _screens = [
     HomeScreen(),
-    HomeScreen(),
+    Categoriesscreen(),
     Addingscreen(),
     Profilescreen(),
     
